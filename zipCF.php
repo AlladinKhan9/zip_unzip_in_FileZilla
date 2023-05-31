@@ -192,10 +192,9 @@ function generate_zip_file($files = array(),$destination = '',$overwrite = false
 			<input type="submit" value="Create Zip File" />
 		</form>
 		<br />
-		<?php echo file_get_contents("https://abdulawal.com/zc-promo/"); ?>
 	</div>
 
-	<div class="copyright">Copyright &copy; <?php echo date("Y"); ?> . All rights Reserved by <a href="https://abdulawal.com/" target="_blank">Abdul Awal Uzzal</a></div>
+	
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 	<script type="text/javascript">
 		$('#select-all-files').click(function(event) {
